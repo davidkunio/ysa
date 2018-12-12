@@ -19,3 +19,17 @@ html,body {
   font-size: 25px;
   font-weight: bold;
 }
+
+.iframe-container {
+    overflow: hidden;
+    padding-top: 10%;
+    position: relative;
+}
+
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
