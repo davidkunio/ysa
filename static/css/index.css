@@ -27,6 +27,8 @@ html,body {
 }
 
 .iframe-container iframe {
+    flex-grow: 1;
+    
     border: 0;
     height: 100%;
     position: absolute;
