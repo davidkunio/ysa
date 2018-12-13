@@ -1,0 +1,9 @@
+web:
+    build: .
+    container_name: ysa
+    ports:
+        - "5000:5000"
+    volumes:
+        - .:/ysa
+
+
